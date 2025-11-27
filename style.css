@@ -1,0 +1,33 @@
+/*
+	Theme Name:   Jannah Child
+	Theme URI:    http://jannah.tielabs.com/
+	Description:  Jannh Child Theme
+	Author:       TieLabs
+	Author URI:   https://tielabs.com
+	Template:     jannah
+	Version:      1.0.2
+	License:      license purchased
+	License URI:  http://themeforest.net/licenses/regular_extended
+	Tags:         Tags: two-columns, buddypress, left-sidebar, right-sidebar, custom-menu, editor-style, featured-images, full-width-template, microformats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+	Text Domain:  jannah-child
+*/
+
+
+/* write custom css after this line */
+
+
+
+body .post-content-slideshow, body #tie-read-next, body .prev-next-post-nav .post-thumb, body .post-thumb img, body .container-wrapper, body .tie-popup-container .container-wrapper, body .widget, body .grid-slider-wrapper .grid-item, body .slider-vertical-navigation .slide, body .boxed-slider:not(.grid-slider-wrapper) .slide, body .buddypress-wrap .activity-list .load-more a, body .buddypress-wrap .activity-list .load-newest a, body .woocommerce .products .product .product-img img, body .woocommerce .products .product .product-img, body .woocommerce .woocommerce-tabs, body .woocommerce div.product .related.products, body .woocommerce div.product .up-sells.products, body .woocommerce .cart_totals, .woocommerce .cross-sells, body .big-thumb-left-box-inner, body .miscellaneous-box .posts-items li:first-child, body .single-big-img, body .masonry-with-spaces .container-wrapper .slide, body .news-gallery-items li .post-thumb, body .scroll-2-box .slide, .magazine1.archive:not(.bbpress) .entry-header-outer, .magazine1.search .entry-header-outer, .magazine1.archive:not(.bbpress) .mag-box .container-wrapper, .magazine1.search .mag-box .container-wrapper, body.magazine1 .entry-header-outer + .mag-box, body .digital-rating-static, body .entry q, body .entry blockquote, body #instagram-link.is-expanded, body.single-post .featured-area, body.post-layout-8 #content, body .footer-boxed-widget-area, body .tie-video-main-slider, body .post-thumb-overlay, body .widget_media_image img, body .stream-item-mag img, body .media-page-layout .post-element , .grid-item{
+	border-radius:6px;
+	overflow: hidden;
+}
+.stream-item-widget img {
+    width: 100%;
+}
+#footer-widgets-container .about-author.about-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.tie-icon-envelope:before {
+    color: #3570db;
+}
