@@ -1,0 +1,53 @@
+
+/* Global Style */
+
+:root {
+    /*--mp-primary-color: #0073aa;*/
+    /*--mp-secondary-color: #333333;*/
+    /*--mp-text-color: #222222;*/
+    /*--mp-bg-color: #ffffff;*/
+    /*--mp-gap: 15px;*/
+    /*--mp-radius: 8px;*/
+}
+
+
+/*.my-plugin-wrapper *,*/
+/*.my-plugin-wrapper *::before,*/
+/*.my-plugin-wrapper *::after {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.my-plugin-wrapper h1,*/
+/*.my-plugin-wrapper h2,*/
+/*.my-plugin-wrapper h3,*/
+/*.my-plugin-wrapper p,*/
+/*.my-plugin-wrapper ul {*/
+/*    margin-top: 0;*/
+/*    margin-bottom: var(--mp-gap);*/
+/*}*/
+
+/*.my-plugin-wrapper img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*}*/
+
+
+/* Desktop */
+@media screen and (min-width: 1026px) {
+    /* Desktop styles here */
+}
+
+
+
+/* Tablet (767px - 1025px) */
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+    /* Tablet styles here */
+}
+
+
+/* Mobile */
+@media screen and (max-width: 766px) {
+    /* Mobile styles here */
+}
+
