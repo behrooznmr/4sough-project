@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: پلاگین اختصاصی چهارسوق - ویرایشات اختصاصی
+Plugin Name: پلاگین اختصاصی چهارسوق
 Plugin URI: https://raman.agencu
 Description: ویرایشات اختصاصی تیم برنامه نویسی رامان برای سایت بلاگ 4 سوق
 Version: 1.0

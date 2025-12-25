@@ -13,7 +13,7 @@ function sb_enqueue_scripts() {
 	
 	//global js
 	wp_enqueue_script( 'sb-custom-js', SB_ASSETS . 'js/front.js', array( 'jquery' ), SB_VERSION , true );
-	wp_localize_script( 'sb-front', 'sb_values', array(
+	wp_localize_script( 'sb-custom-js', 'sb_values', array(
 		'ajax_url' => admin_url( 'admin-ajax.php' ) ,
 		'nonce' => wp_create_nonce('custom_ajax_nonce'),
 	) );
